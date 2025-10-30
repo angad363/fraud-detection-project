@@ -1,0 +1,6 @@
+{
+    "best_f1_threshold": 0.9000000000000004,
+    "high_recall_threshold": 0.9000000000000004,
+    "default_threshold": 0.5,
+    "recommendation": "Use high_recall_threshold for production (prioritize catching fraud)"
+}

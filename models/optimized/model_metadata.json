@@ -1,0 +1,20 @@
+{
+    "model_type": "XGBoost",
+    "training_date": "2025-10-30 10:59:46",
+    "best_params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.01,
+        "max_depth": 3,
+        "min_child_weight": 1,
+        "n_estimators": 50,
+        "subsample": 0.8
+    },
+    "cv_recall": 0.8706588769879909,
+    "test_recall": 0.9591836734693877,
+    "test_precision": 0.003250795407386914,
+    "test_f1": 0.006479630523195699,
+    "test_roc_auc": 0.9079728719005893,
+    "n_features": 44,
+    "training_samples": 454902,
+    "test_samples": 56962
+}
