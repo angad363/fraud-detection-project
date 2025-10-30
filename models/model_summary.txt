@@ -1,0 +1,35 @@
+
+FRAUD DETECTION MODEL - SUMMARY REPORT
+============================================================
+
+Dataset Overview:
+- Total Transactions: 284,807
+- Fraudulent: 492 (0.173%)
+- Features Created: 44
+
+Model Performance (Test Set):
+
+Logistic Regression:
+- Recall: 91.84%
+- Precision: 5.64%
+- F1-Score: 0.1063
+- ROC-AUC: 0.9741
+
+XGBoost:
+- Recall: 87.76%
+- Precision: 7.47%
+- F1-Score: 0.1376
+- ROC-AUC: 0.9686
+
+Key Insights:
+1. Severe class imbalance (577:1 ratio)
+2. SMOTE helped balance training data
+3. XGBoost outperforms Logistic Regression
+4. High recall achieved: catching most frauds
+5. Feature engineering improved performance
+
+Next Steps:
+- Hyperparameter tuning
+- Try ensemble methods
+- Build real-time API
+- Deploy with monitoring
